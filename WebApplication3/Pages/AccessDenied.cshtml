@@ -1,0 +1,8 @@
+﻿@page
+@model ErrorModel
+@{
+    ViewData["Title"] = "Access Denied";
+}
+
+< h1 class= "text-warning" > You do not have permission to access this page.</h1>
+<p>@Model.RequestId</p>
